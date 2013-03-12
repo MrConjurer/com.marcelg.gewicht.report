@@ -1,20 +1,20 @@
 package com.marcelg.gewicht.report.test;
-/**
- * 
- */
+
+import org.junit.Assert;
+import org.junit.Test;
 
 /**
  * @author MrConjurer
- *
+ * 
  */
+
 public class TestDaten {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Test
+	public void firstTest() {
 
+		String a = "Test";
+		Assert.assertEquals("Test", a);
 	}
 
 }
