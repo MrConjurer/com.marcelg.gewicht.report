@@ -8,8 +8,7 @@ public class ReadUser {
 
 	public void readUserData() {
 		try {
-			BufferedReader in = new BufferedReader(new FileReader(
-					"data/PROF1.CSV"));
+			BufferedReader in = new BufferedReader(new FileReader("PROF1.CSV"));
 			String zeile = null;
 			while ((zeile = in.readLine()) != null) {
 				System.out.println("Gelesene Zeile: " + zeile);
